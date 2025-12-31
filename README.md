@@ -15,7 +15,7 @@
 
 | 首页 (暗黑模式) | 文章详情页 |
 | --- | --- |
-| ![首页截图](https://via.placeholder.com/400x200?text=Dark+Mode+Home) | ![详情页截图](https://via.placeholder.com/400x200?text=Article+Detail) |
+| ![首页截图]([https://via.placeholder.com/400x200?text=Dark+Mode+Home](https://github.com/user-attachments/assets/39f21f40-339d-41dd-9fd4-d4980f7deea0)) | ![详情页截图](https://via.placeholder.com/400x200?text=Article+Detail) |
 
 | 编辑器 (Markdown) | 登录页面 |
 | --- | --- |
