@@ -17,7 +17,6 @@ https://github.com/user-attachments/assets/39f21f40-339d-41dd-9fd4-d4980f7deea0#
 | --- | --- |
 | ![首页截图](https://github.com/user-attachments/assets/39f21f40-339d-41dd-9fd4-d4980f7deea0) | ![详情页截图](https://github.com/user-attachments/assets/3807f8b3-cd01-41c8-8247-0f9fcb808e1d) |
 | 编辑器 (Markdown) | 登录页面 |
-| --- | --- |
 | ![编辑器截图](https://github.com/user-attachments/assets/2a89047a-ec4f-4ecb-8a60-074402b44c79) | ![登录页截图](https://github.com/user-attachments/assets/006aa599-aec2-4bf7-b845-79b44e0f6498) |
 
 ## ✨ 核心功能 (Features)
