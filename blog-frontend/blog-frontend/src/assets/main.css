@@ -1,0 +1,60 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+}
+
+/* 定义颜色变量：默认是浅色 */
+:root {
+  --bg-color: #f4f4f4;       /* 浅色背景 */
+  --text-color: #333333;     /* 浅色文字 */
+  --card-bg: #ffffff;        /* 卡片背景 */
+}
+
+/* 当 html 标签上有 class="dark" 时，覆盖变量 */
+html.dark {
+  --bg-color: #1a1a1a;       /* 深色背景 */
+  --text-color: #e5e5e5;     /* 深色文字 */
+  --card-bg: #252525;        /* 卡片深色背景 */
+}
+
+/* 应用到全局 */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s; /* 丝滑过渡动画 */
+  margin: 0;
+}
+
+/* 强制让 Element Plus 的卡片背景也跟随我们的变量 (可选) */
+/* 如果你的 Home.vue 里直接写死了 background: #fff，建议改成 background: var(--card-bg) */

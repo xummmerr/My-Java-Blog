@@ -1,0 +1,20 @@
+# 端口号配置
+server:
+  port: 8080
+
+spring:
+  # 数据库连接配置
+  datasource:
+    # 数据库驱动
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # 数据库地址 (注意 localhost:3306 后面跟的是你的数据库名 personal_blog)
+    url: jdbc:mysql://localhost:3306/person_blog?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    # 账号
+    username: root
+    # 密码 (↓↓↓ 这里改成你的数据库密码 ↓↓↓)
+    password: 123456
+  # 配置文件大小限制
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
